@@ -9,54 +9,64 @@ z2
 cModel Technology
 Z0 dE:/BaiduNetdiskDownload/publish/study_demo_bin2bcd
 T_opt
-!s110 1741859846
-VBVFm`bUC3l4Tjk>VDF:N50
-04 7 4 work bin2bcd fast 0
-=1-80fa5b89dca7-67d2ac05-3ca-4860
-o-quiet -auto_acc_if_foreign -work work
+!s110 1741933505
+VSiUkWaN;Dl?3b5S0Ikkli3
+Z1 04 2 4 work tb fast 0
+=1-80fa5b89dca7-67d3cbc1-c7-6418
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
-Z1 OL;O;10.4;61
+Z3 OL;O;10.4;61
 R0
 T_opt1
 !s110 1741859929
 VNHX2Alff;WnjJCL@BbL>81
-04 2 4 work tb fast 0
-=1-80fa5b89dca7-67d2ac59-15e-102ac
-o-quiet -auto_acc_if_foreign -work work +acc
-n@_opt1
 R1
+=1-80fa5b89dca7-67d2ac59-15e-102ac
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1741933412
+V[FAgLlTi>2<bzZ?eJ@QEN1
+R1
+=1-80fa5b89dca7-67d3cb63-304-676c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt2
+R3
+R0
 vbin2bcd
-!s110 1741859922
+!s110 1741933525
 !i10b 1
 !s100 hjWA1ljE;8eHhD?cjhCm>2
-I9W]J8Co;WJ9WH<Q_0IlSA0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
+IM6G4<Mo5obn89ZE`cbRjf2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+dE:/BaiduNetdiskDownload/publish/bin2_bcd
 w1741859760
-8E:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/rtl/bin2bcd.v
-FE:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/rtl/bin2bcd.v
+8E:/BaiduNetdiskDownload/publish/bin2_bcd/rtl/bin2bcd.v
+FE:/BaiduNetdiskDownload/publish/bin2_bcd/rtl/bin2bcd.v
 L0 10
-Z3 OL;L;10.4;61
+Z5 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1741859922.142000
-!s107 E:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/rtl/bin2bcd.v|
-!s90 -reportprogress|300|-work|work|E:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/rtl/bin2bcd.v|
+!s108 1741933525.675000
+!s107 E:/BaiduNetdiskDownload/publish/bin2_bcd/rtl/bin2bcd.v|
+!s90 -reportprogress|300|-work|work|E:/BaiduNetdiskDownload/publish/bin2_bcd/rtl/bin2bcd.v|
 !i113 0
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 vtb
 !s110 1741859918
 !i10b 1
 !s100 hLXMfA7A7b^8;OYZ0HYX13
 IUDX:ff_hJE:]?`WGLUXlc1
-R2
+R4
 R0
 w1741859839
 8E:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/pattern/tb.v
 FE:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/pattern/tb.v
 L0 13
-R3
+R5
 r1
 !s85 0
 31
@@ -64,4 +74,4 @@ r1
 !s107 E:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/pattern/tb.v|
 !s90 -reportprogress|300|-work|work|E:/BaiduNetdiskDownload/publish/study_demo_bin2bcd/pattern/tb.v|
 !i113 0
-R4
+R6
